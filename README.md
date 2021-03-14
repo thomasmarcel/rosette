@@ -7,6 +7,9 @@
 1. Clone this repository
 1. Run `cargo build -- release`
 
+## Usage
+
+* Run `$ rosette file.txt en fr`
 
 ## TODO
 
