@@ -1,5 +1,5 @@
 [package]
-name = "rosetta"
+name = "rosette"
 version = "0.1.0"
 authors = ["Thomas Alcala Schneider <thomas.alcala@gmail.com>"]
 edition = "2018"
