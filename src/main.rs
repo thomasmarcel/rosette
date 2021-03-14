@@ -30,8 +30,8 @@ fn main() {
         Err(_e) => panic!("Set up the GOOGLE_API_KEY environment variable first"),
     };
 
-    if args.len() != 2 {
-        panic!("You need to pass a text file name");
+    if args.len() != 4 {
+        panic!("You need to pass a text file name, a source and a target language");
     }
 
     println!(
@@ -39,9 +39,8 @@ fn main() {
         args, api_key
     );
 
-    let query = "rust";
-    let source = "fr";
-    let target = "en";
+    let source = &args[2];
+    let target = &args[3];
 
     // let translations = translate(query, source, target, &api_key);
 
