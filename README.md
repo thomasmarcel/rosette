@@ -1,4 +1,4 @@
-# Rosetta
+# Rosette
 
 ## Installation
 
