@@ -3,6 +3,8 @@ name = "rosette"
 version = "0.1.0"
 authors = ["Thomas Alcala Schneider <thomas.alcala@gmail.com>"]
 edition = "2018"
+description = "Translate a text file to any language."
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
