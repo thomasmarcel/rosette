@@ -1,5 +1,5 @@
 [package]
-name = "translate"
+name = "rosetta"
 version = "0.1.0"
 authors = ["Thomas Alcala Schneider <thomas.alcala@gmail.com>"]
 edition = "2018"
@@ -7,3 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.10", features = ["json", "native-tls", "cookies"] }
+tokio = { version = "0.2", features = ["full"] }
+serde_json = "1.0"
