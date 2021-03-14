@@ -1,6 +1,6 @@
 [package]
 name = "rosette"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Thomas Alcala Schneider <thomas.alcala@gmail.com>"]
 edition = "2018"
 description = "Translate a text file to any language."
